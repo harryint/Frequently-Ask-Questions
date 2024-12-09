@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:azure;
+}
+.title{
+    font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.3rem;
+  color: goldenrod;
+}
+section{
+    text-align: center;
+}
+.section-center{
+    box-sizing: border-box;
+    /* margin: 10px; */
+}
+.question{
+    /* border: 2px solid black; */
+    margin: 3vh 10vw ;
+    /* max-width: fit-content; */
+    box-shadow: 0 0 8px grey;
+    background-color: white;
+    padding: 0 8px;
+}
+.question-title{
+    justify-content: space-between;
+    /* margin: auto; */
+    display: flex;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+}
+.question-title p{
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: rgb(82, 82, 82);
+    /* margin-left: 40px; */
+}
+.question-btn{
+    padding: 0;
+    margin-right: 10px;
+    cursor: pointer;
+    color: goldenrod;
+    transition: 0.3s;
+    background-color: transparent;
+    font-size: 1.5rem;
+    border: 0;
+}
+.question-text{
+    padding: 1rem 0 1.5rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.question-text p{
+    font-family: "Parkinsans", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(117, 117, 117);
+}
+.question-btn:hover{
+    transform: rotate(90deg);
+}
+.question-text{
+    display: none;
+}
+.show-text .question-text{
+    display: block;
+}
+.minus-icon{
+    display: none;
+}
+.show-text .minus-icon{
+    display: inline;
+}
+.show-text .plus-icon{
+    display: none;
+}
